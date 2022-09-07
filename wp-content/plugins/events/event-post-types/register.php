@@ -10,7 +10,7 @@ function event_register_post_type()
 		'set_featured_image' => __('Set Event Image', EVENTDOMAIN),
 		'remove_featured_image' => __('Remove Event Image', EVENTDOMAIN),
 		'use_featured_image' => __('Use Image', EVENTDOMAIN),
-		'archives' => __('Events', EVENTDOMAIN),
+		'archives' => __('Events Calendar', EVENTDOMAIN),
 		'add_new' => __('Add New Event', EVENTDOMAIN),
 		'add_new_item' => __('Add New Event', EVENTDOMAIN),
 	);
