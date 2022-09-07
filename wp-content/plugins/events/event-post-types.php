@@ -11,3 +11,15 @@
  * Text Domain: event-posts
  * Domain Path: /languages
  */
+
+if (!defined('WPINC')) {
+	die;
+}
+
+define('EVENT_VERSION', '1.0.0');
+define('EVENTDOMAIN', 'event-post-types');
+define('EVENTPATH', plugin_dir_path(__FILE__));
+
+require_once(EVENTPATH . '/event-post-types/register.php');
+
+add_action('init', 'event_register_post_type');
