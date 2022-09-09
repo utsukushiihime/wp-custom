@@ -1,0 +1,1 @@
+/Users/macbookpro/Local Sites/wordpress/app/public/wp-content/plugins/query-monitor/wp-content/db.php
